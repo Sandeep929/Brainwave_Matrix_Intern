@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+
+<body>
+    <nav>
+        <div class="up ">
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+                ShopNow</p>
+            <button id="lang">English
+                <img src="images/da.svg" alt="">
+            </button>
+        </div>
+        <div class="down">
+            <div class="logo">BargainBazaar</div>
+            <div class="pages">
+                <a class="font atags" href="">Home</a>
+                <a class="font atags" href="http://127.0.0.1:3000/contact.html">Contact</a>
+                <a class="font atags" href="http://127.0.0.1:3000/about.html">About</a>
+                <a class="font atags" href="http://127.0.0.1:3000/signup.html">Sign Up</a>
+            </div>
+            <div class="options">
+                <span class="searchbox">
+                    <input type="text" placeholder="What are you looking for?">
+                    <button class="btn"><img src="images/search.svg" alt=""></button>
+                </span>
+                <a href="http://127.0.0.1:3000/wishlist.html" class="btn"><img src="images/heart.svg" alt=""></a>
+                <button class="btn"><img src="images/cart.svg" alt=""></button>
+                <button class="profile"><img src="images/profile.svg" alt=""></button>
+            </div>
+        </div>
+    </nav>
+    <div class="sepration"></div>
+    <div class="banner-area">
+        <div class="scrollarea b-a-left font">
+            <ul>
+                <li><button class="btn">Woman's Fashion</button></li>
+                <li><button class="btn">Men's Fashion</button></li>
+                <li><button class="btn">Electronics</button></li>
+                <li><button class="btn">Home & Lifestyle</button></li>
+                <li><button class="btn">Medicine</button></li>
+                <li><button class="btn">Sports & Outdoor</button></li>
+                <li><button class="btn">Baby's & Toys</button></li>
+                <li><button class="btn">Groceries & Pets</button></li>
+                <li><button class="btn">Health & Beauty</button></li>
+            </ul>
+        </div>
+        <div onclick="moveSlide(-1)" class="btnleft common"><button><img src="images/la.svg" alt=""></button></div>
+        <div class="b-a-right">
+            <div class="images">
+                <img class="bannerimg2" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b530f7110494491.5feef8228f2b8.png"
+                alt="">
+                <img class="bannerimg2" src="https://t4.ftcdn.net/jpg/03/83/21/85/360_F_383218557_t5fC98hOdrg0hr4BsulCZ9mPX9a4uube.jpg"
+                alt="">
+                <img class="bannerimg2" src="https://www.shutterstock.com/image-vector/3d-yellow-great-discount-sale-260nw-2056851839.jpg" alt="">
+                <img class="bannerimg2" src="https://previews.123rf.com/images/garagestock/garagestock1701/garagestock170138608/70143581-e-commerce-banner.jpg" alt="">
+            </div>
+        </div>
+        <div onclick="moveSlide(+1)" class="btnright common"><button><img src="images/ra.svg" alt=""></button></div>
+    </div>
+    <div class="main">
+        <div class="contentcontainer">
+            <div class="tag">
+                <div class="block"></div>
+                <span>Today's</span>
+            </div>
+            <div class="heading">
+                Flash Sales
+            </div>
+            <div id="FlashSales" class="content scrollarea">
+                
+            </div>
+            <div class="btncontainer">
+                <button class="btn2">
+                    View all products
+                </button>
+            </div>
+        </div>
+        <div class="sepration2"></div>
+        <div class="contentcontainer">
+            <div class="tag">
+                <div class="block"></div>
+                <span>Categories</span>
+            </div>
+            <div class="heading">
+                Browse By Categories
+            </div>
+            <div class="content scrollarea">
+                <div class="card2 hover-red">
+                    <img src="images/phone.svg" alt="">
+                    <span class="name">Phones</span>
+                </div>
+                <div class="card2 hover-red">
+                    <img src="images/computer.svg" alt="">
+                    <span class="name">Computers</span>
+                </div>
+                <div class="card2 hover-red">
+                    <img src="images/sw.svg" alt="">
+                    <span class="name">Smart Watches</span>
+                </div>
+                <div class="card2 hover-red">
+                    <img src="images/camera.svg" alt="">
+                    <span class="name">Cameras</span>
+                </div>
+                <div class="card2 hover-red">
+                    <img src="images/headset.svg" alt="">
+                    <span class="name">Headphones</span>
+                </div>
+                <div class="card2 hover-red">
+                    <img src="images/controller.svg" alt="">
+                    <span class="name">Gaming</span>
+                </div>
+            </div>
+        </div>
+        <div class="sepration2"></div>
+        <div class="contentcontainer">
+            <div class="tag">
+                <div class="block"></div>
+                <span>This Month</span>
+            </div>
+            <div class="heading">
+                Best Selling Products
+                <button class="btn2">View all</button>
+            </div>
+            <div id="BestSellingProducts" class="content scrollarea">
+                
+            </div>
+        </div>
+        <div class="banner">
+            <img class="bannerimg"
+                src="https://adn.harmanpro.com/settings/slides/1559_1588870720/JBL_CategoryBanners_Jblpro.com_RecordBroadcast_1920x692_original.jpg"
+                alt="">
+        </div>
+        <div class="contentcontainer">
+            <div class="tag">
+                <div class="block"></div>
+                <span>Featured</span>
+            </div>
+            <div class="heading">
+                New Arrivals
+            </div>
+            <div id="NewArrivals" class="content scrollarea">
+               
+            </div>
+            <div class="btncontainer">
+                <button class="btn2">
+                    View all products
+                </button>
+            </div>
+        </div>
+        <div class="services">
+            <div class="sbox">
+                <div class="serviceicons">
+                    <div class="innercircle"><img src="images/fd.svg" alt=""></div>
+                </div>
+                <h4>FREE AND FAST DELIVERY</h4>
+                <h5>Free delivery for all orders over $140</h5>
+            </div>
+            <div class="sbox">
+                <div class="serviceicons">
+                    <div class="innercircle"><img src="images/cs.svg" alt=""></div>
+                </div>
+                <h4>24/7 CUSTOMER SERVICE</h4>
+                <h5>Friendly 24/7 customer support</h5>
+            </div>
+            <div class="sbox">
+                <div class="serviceicons">
+                    <div class="innercircle"><img src="images/mb.svg" alt=""></div>
+                </div>
+                <h4>MONEY BACK GUARANTEE</h4>
+                <h5>We reurn money within 30 days</h5>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fboxes">
+            <ul>
+                <h4>Exclusive</h4>
+                <h5>Subscribe</h5>
+                <li>Get 10% off on your first order</li>
+                <div class="input">
+                    <input type="text" placeholder="Enter you email">
+                    <button class="send"><img src="images/send.svg" alt=""></button>
+                </div>
+            </ul>
+        </div>
+        <div class="fboxes">
+            <ul>
+                <h4>Support</h4>
+                <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+                <p>exclusive@gmail.com</p>
+                <p>+88015-88888-9999</p>
+            </ul>
+        </div>
+        <div class="fboxes">
+            <ul>
+                <h4>Account</h4>
+                <p>My Account</p>
+                <p>Login / Register</p>
+                <p>Cart</p>
+                <p>Wishlist</p>
+                <p>Shop</p>
+            </ul>
+        </div>
+        <div class="fboxes">
+            <ul>
+                <h4>Quick Link</h4>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>FAQ</p>
+                <p>Contact</p>
+            </ul>
+        </div>
+        <div class="fboxes">
+            <ul>
+                <h4>Download App</h4>
+                <div class="links button">
+                    <h6>Save $3 with App New User Only</h6>
+                    <div class="qrbox">
+                        <div class="qr" ><img src="https://shutterstock.com/shutterstock/photos/789298414/display_1500/stock-vector-see-nothing-here-dummy-undecodable-qr-code-789298414.jpg" alt=""></div>
+                        <div class="stores">
+                            <div class="pstore">
+                                <button><img src="images/play.jpg" alt=""></button>
+                            </div>
+                            <div class="astore"><button><img src="images/app.jpg" alt=""></button></div>
+                        </div>
+                    </div>
+                    <div class="smedia">
+                        <img src="images/f.svg" alt="">
+                        <img src="images/i.svg" alt="">
+                        <img src="images/x.svg" alt="">
+                        <img src="images/li.svg" alt="">
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
